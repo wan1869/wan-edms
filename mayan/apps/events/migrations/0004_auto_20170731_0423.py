@@ -4,6 +4,7 @@ import django.db.models.deletion
 
 
 class Migration(migrations.Migration):
+    atomic = False
     dependencies = [
         ('events', '0003_notification'),
     ]
